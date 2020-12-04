@@ -1,0 +1,7 @@
+{
+  "name": "webpack-react-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "George <wblai@foxmail.com>",
+  "license": "MIT"
+}
