@@ -1,0 +1,17 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = crlf
+charset = utf-8
+# 设为 true 表示会除去换行行首的任意空白字符，false 反之。
+trim_trailing_whitespace = true
+# 设为 true 表明使文件以一个空白行结尾，false 反之
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
