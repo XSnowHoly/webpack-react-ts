@@ -5,7 +5,12 @@
     "dist": true,
     "yarn.lock": true
   },
+  "eslint.validate": ["javascript", "javascritreact", "typescript", "typescriptreact"],
+  "typescript.tsdk": "./node_modules/typescript/lib", // 代替vscode 的 ts 语法智能提示
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
