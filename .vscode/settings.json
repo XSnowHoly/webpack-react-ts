@@ -7,6 +7,9 @@
   },
   "eslint.validate": ["javascript", "javascritreact", "typescript", "typescriptreact"],
   "typescript.tsdk": "./node_modules/typescript/lib", // 代替vscode 的 ts 语法智能提示
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
