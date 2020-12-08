@@ -15,7 +15,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts.tsx,js}": [
+    "*.{ts,tsx,js}": [
       "eslint --config .eslintrc.js"
     ],
     "*.{css,less,scss}": [
